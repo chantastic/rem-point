@@ -19,29 +19,29 @@ This lib just offers a set of classes for using an 8-point soft grid with the cs
 The class names break down like this:
 
 ```txt
-{acronymized CSS property}-{n × 8px}
+{acronymized CSS property}-{n × .5rem}
 ```
 
 For example:
 
 ```css
-.p-1 { padding:  8px }  /* 1 × 8px */
-.p-2 { padding: 16px } /* 2 × 8px */
-.p-3 { padding: 24px } /* 3 × 8px */
+.p-1 { padding:  .5rem }  /* 1 × .5rem */
+.p-2 { padding: 1rem } /* 2 × .5rem */
+.p-3 { padding: 1.5rem } /* 3 × .5rem */
 ```
 
 You can use side-specific properties as well:
 
 ```css
-.mt-1 { margin-top: 8px }
-.mr-1 { margin-right: 8px }
-.mb-1 { margin-bottom: 8px }
-.ml-1 { margin-left: 8px }
+.mt-1 { margin-top: .5rem }
+.mr-1 { margin-right: .5rem }
+.mb-1 { margin-bottom: .5rem }
+.ml-1 { margin-left: .5rem }
 
 /* x and y added for convenience */
 
-.my-1 { margin-top: 8px; margin-bottom: 8px }
-.mx-1 { margin-right: 8px; margin-left: 8px }
+.my-1 { margin-top: .5rem; margin-bottom: .5rem }
+.mx-1 { margin-right: .5rem; margin-left: .5rem }
 ```
 
 ## Legend
@@ -79,14 +79,14 @@ s = width; height
 #### values
 
 ```txt
-1 = 8px
-2 = 16px
-3 = 24px
-4 = 32px
-5 = 40px
-6 = 48px
-7 = 56px
-8 = 64px
+1 = .5rem
+2 = 1rem
+3 = 1.5rem
+4 = 2rem
+5 = 2.5rem
+6 = 3rem
+7 = 3.5rem
+8 = 4rem
 ```
 
 ## Install
@@ -96,13 +96,13 @@ NPM:
 ## Use
 ```html
 <div class="m-1 p-3">
-  This has 8px margin and 24px padding.
+  This has .5rem margin and 1.5rem padding.
 </div>
 
 <img
   src="./path/img.ext"
   class="s-8"
-  alt="this img is 64px high and wide"
+  alt="this img is 4rem high and wide"
 />
 ```
 
