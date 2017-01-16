@@ -1,20 +1,20 @@
 {
-  "name": "8-point",
+  "name": "rem-point",
   "version": "1.0.0",
-  "description": "8-point soft-grid classes.",
-  "main": "8-point.css",
-  "style": "8-point.css",
+  "description": "Soft-grid classes using rem.",
+  "main": "rem-point.css",
+  "style": "rem-point.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chantastic/8-point.git"
+    "url": "git+https://github.com/chantastic/rem-point.git"
   },
   "author": "Michael Chan (chantastic)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chantastic/8-point/issues"
+    "url": "https://github.com/chantastic/rem-point/issues"
   },
-  "homepage": "https://github.com/chantastic/8-point#readme"
+  "homepage": "https://github.com/chantastic/rem-point#readme"
 }

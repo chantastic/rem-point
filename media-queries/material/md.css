@@ -1,4 +1,4 @@
-/*! 8-point */
+/*! rem-point */
 @media screen and (min-width:720px){
 .m-0\@md{margin:0}
 .m-1\@md{margin:.5rem}

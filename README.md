@@ -1,18 +1,18 @@
-# 8-point
-A set of 8 point grid classes.
+# rem-point
+Soft-grid classes using rem
 
 ## Why
 
-[8-point grid](https://spec.fm/specifics/8-pt-grid) is a thing.
+[rem-point grid](https://spec.fm/specifics/8-pt-grid) is a thing.
 It's a good thing at that.
 
 8 has a lot of advantages as a number.
-It's chief adavntage is that it bifurcates evenly.
-So devices that do any type of strange scaling don't end up with half-values.
+But maybe you prefer to use rem.
+With this lib, each step is `.5rem`.
 
-This is good.
+These classes
 
-This lib just offers a set of classes for using an 8-point soft grid with the css box model. It incluedes classes for `margin`, `padding`, `TRBL`, `width`, `height`, and "size".
+This lib just offers a set of classes for using an rem-point soft grid with the css box model. It incluedes classes for `margin`, `padding`, `TRBL`, `width`, `height`, and "size".
 
 ## Anatomy
 
@@ -25,8 +25,8 @@ The class names break down like this:
 For example:
 
 ```css
-.p-1 { padding:  .5rem }  /* 1 × .5rem */
-.p-2 { padding: 1rem } /* 2 × .5rem */
+.p-1 { padding: .5rem }  /* 1 × .5rem */
+.p-2 { padding: 1rem }   /* 2 × .5rem */
 .p-3 { padding: 1.5rem } /* 3 × .5rem */
 ```
 
@@ -91,7 +91,7 @@ s = width; height
 
 ## Install
 NPM:
-`npm i -S 8-point`
+`npm i -S rem-point`
 
 ## Use
 ```html
@@ -110,4 +110,4 @@ NPM:
 
 MIT License
 
-Copyright (c) 2016 Michael Chan
+Copyright (c) 2017 Michael Chan
