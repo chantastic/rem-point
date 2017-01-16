@@ -1,6 +1,6 @@
 {
   "name": "rem-point",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "Soft-grid classes using rem.",
   "main": "rem-point.css",
   "style": "rem-point.css",
